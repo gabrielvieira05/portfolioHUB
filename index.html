@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>portfolioHUB - Gabriel Vieira Souza</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Fira+Mono&display=swap" rel="stylesheet">
+</head>
+<body class="body-fade">
+  <div class="dark-container">
+    <header>
+      <div class="profile">
+        <img src="foto.jpg" alt="Foto profissional" />
+        <div>
+          <h1>Gabriel Vieira Souza</h1>
+          <p class="subtitle">Designer, desenvolvedor & entusiasta em tecnologia</p>
+        </div>
+      </div>
+      <p class="bio">
+        Sou formado em Análise e Desenvolvimento de Sistemas pelo UniCEUB e estudante de Ciências da Computação. Especialista em design de interfaces e soluções para impacto social. Proativo, comunicativo e focado em criar experiências digitais modernas.
+      </p>
+      <div class="contact-popup-area">
+        <button class="contact-popup-btn" onclick="openPopup()">Ver contatos</button>
+      </div>
+    </header>
+
+    <div id="contactModal" class="contact-modal">
+      <div class="contact-modal-content">
+        <span class="close-contact" onclick="closePopup()">&times;</span>
+        <h2>Contatos</h2>
+        <div>
+          <strong>Email:</strong>
+          <a href="mailto:gabrielvieirasouza87@gmail.com">gabrielvieirasouza87@gmail.com</a>
+        </div>
+        <div>
+          <strong>Telefone:</strong>
+          <a href="tel:+5561984822256">(61) 98482-2256</a>
+        </div>
+        <div>
+          <strong>LinkedIn:</strong>
+          <a href="https://linkedin.com/in/gabriel-vieira-souza-439590aa" target="_blank">linkedin.com/in/gabriel-vieira-souza-439590aa</a>
+        </div>
+      </div>
+    </div>
+
+    <main>
+
+      <section>
+        <h2>Currículo</h2>
+        <a href="Curriculo.pdf" class="action-link" target="_blank">Baixar currículo completo</a>
+      </section>
+
+      <section>
+        <h2>Certificados</h2>
+        <div class="certificados-list">
+          <a href="Certificado Alura 1.pdf" class="cert-link" target="_blank">Certificado Alura I</a>
+          <a href="Certificado Alura 2.pdf" class="cert-link" target="_blank">Certificado Alura II</a>
+          <a href="Certificado Banco do Brasil.pdf" class="cert-link" target="_blank">Certificado Banco do Brasil</a>
+          <a href="Certificado Power BI.pdf" class="cert-link" target="_blank">Certificado Power BI</a>
+        </div>
+      </section>
+
+      <section>
+        <h2>Projetos</h2>
+        <div class="project-list">
+
+          <div class="project-card">
+            <h3 style="color:#a259ea;">WaterGuardian</h3>
+            <p>Aplicação web para monitoramento inteligente do consumo de água com interface desenvolvida em React e TypeScript.</p>
+            <p><strong>Tecnologias:</strong> React, TypeScript, CSS, IoT, API.</p>
+            <a href="https://github.com/gabrielvieira05/waterguardian" target="_blank" style="color:#60aaff;">Ver no GitHub</a>
+          </div>
+
+          <div class="project-card">
+            <h3 style="color:#a259ea;">Lista de Tarefas</h3>
+            <p>Aplicativo web simples para criação e gerenciamento de tarefas com armazenamento local.</p>
+            <p><strong>Tecnologias:</strong> HTML, CSS, JavaScript.</p>
+            <a href="https://github.com/gabrielvieira05/listadetarefas" target="_blank" style="color:#60aaff;">Ver no GitHub</a>
+          </div>
+
+          <div class="project-card">
+            <h3 style="color:#a259ea;">Gerador de Senhas</h3>
+            <p>Ferramenta online para criação de senhas seguras, com opções de personalização.</p>
+            <p><strong>Tecnologias:</strong> HTML, CSS, JavaScript.</p>
+            <a href="https://github.com/gabrielvieira05/geradordesenhas" target="_blank" style="color:#60aaff;">Ver no GitHub</a>
+          </div>
+
+        </div>
+
+        <h2>Apresentação do Projeto</h2>
+        <p>Veja os slides completos do Projeto WaterGuardian para detalhes visuais e técnicos.</p>
+        <a href="Projeto Water Guardian.pdf" class="action-link" target="_blank">Ver slides do projeto (PDF)</a>
+      </section>
+
+      <section>
+        <h2>Habilidades & Competências</h2>
+        <div class="skills-list">
+          <span>React</span>
+          <span>TypeScript</span>
+          <span>UI/UX Design</span>
+          <span>Figma</span>
+          <span>HTML / CSS / JS</span>
+          <span>Python</span>
+          <span>Banco de Dados MySQL</span>
+          <span>After Effects</span>
+          <span>C#</span>
+          <span>Inglês Fluente</span>
+        </div>
+      </section>
+
+      <section>
+        <h2>Recomendações</h2>
+        <div class="testimonial-box">
+          <blockquote>
+            “Gabriel demonstrou habilidade na questão do design do projeto, bem feito e muito detalhado.”
+            <br><span>- Prof. Wellington, UniCEUB</span>
+          </blockquote>
+        </div>
+      </section>
+
+      <section>
+        <h2>Contato</h2>
+        <p>
+          <span class="mono">gabrielvieirasouza87@gmail.com</span> &nbsp;|&nbsp;
+          <span class="mono">Telefone: (61) 98482-2256</span> &nbsp;|&nbsp;
+          <a href="https://linkedin.com/in/gabriel-vieira-souza-439590aa" target="_blank"><span class="mono">LinkedIn</span></a>
+        </p>
+      </section>
+
+    </main>
+
+    <footer>
+      <span>© 2025 Gabriel Vieira Souza – portfolioHUB</span>
+    </footer>
+
+  </div>
+
+  <script>
+    function openPopup() {
+      document.getElementById('contactModal').style.display = 'block';
+    }
+    function closePopup() {
+      document.getElementById('contactModal').style.display = 'none';
+    }
+    window.onclick = function(event) {
+      var modal = document.getElementById('contactModal');
+      if (event.target === modal) {
+        modal.style.display = "none";
+      }
+    }
+  </script>
+</body>
+</html>
