@@ -110,6 +110,7 @@ Para networking, parcerias ou oportunidades profissionais, disponibilizo uma se�
 * **Formulário direto via pop-up interativo**.
 * **Links para LinkedIn e GitHub**.
 * **E-mail profissional e telefone**.
+* **https://github.com/gabrielvieira05**.
 
 Assim, você pode escolher a forma mais prática de iniciar uma conversa.
 
