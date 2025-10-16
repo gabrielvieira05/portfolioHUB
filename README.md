@@ -90,7 +90,8 @@ Essas recomendações trazem uma perspectiva externa sobre meu profissionalismo 
 
 ---
 
-🔀 Mudanças realizadas em projeto colaborativo
+##🔀 Mudanças realizadas em projeto colaborativo
+
 Apresentei melhorias no projeto de um colega via Pull Request, aprimorando sua interface e usabilidade:
 
 Refiz o layout do conversor de moedas com uma interface mais moderna e responsiva.
