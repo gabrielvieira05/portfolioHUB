@@ -111,6 +111,7 @@ Para networking, parcerias ou oportunidades profissionais, disponibilizo uma se�
 * **Links para LinkedIn e GitHub**.
 * **E-mail profissional e telefone**.
 * **https://github.com/gabrielvieira05**.
+* **https://www.linkedin.com/in/gabriel-vieira-souza22**.
 
 Assim, você pode escolher a forma mais prática de iniciar uma conversa.
 
