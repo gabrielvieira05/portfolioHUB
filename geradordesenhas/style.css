@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+  background-color: #222433;
+  color: #eee;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 15px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: #2f3242;
+  padding: 30px 35px;
+  border-radius: 14px;
+  width: 100%;
+  max-width: 420px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.5);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 26px;
+  color: #ae9eff;
+  font-weight: 700;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+label {
+  font-weight: 600;
+}
+
+input[type="number"] {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+  outline: none;
+  width: 72px;
+  margin-left: 8px;
+}
+
+fieldset {
+  border: 1px solid #4a4785;
+  border-radius: 9px;
+  padding: 14px 12px;
+  color: #b9b5d3;
+}
+
+legend {
+  font-weight: 700;
+  color: #ae9eff;
+}
+
+button[type="submit"] {
+  background-color: #7e68d2;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  padding: 12px 24px;
+  font-weight: 700;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.22s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #ae9eff;
+  color: #222433;
+}
+
+#resultado {
+  margin-top: 24px;
+  font-size: 1.25rem;
+  padding: 14px 16px;
+  background: #383c5a;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 600;
+  min-height: 38px;
+  color: #c7bef2;
+  word-break: break-all;
+}
