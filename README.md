@@ -90,17 +90,14 @@ Essas recomendações trazem uma perspectiva externa sobre meu profissionalismo 
 
 ---
 
-##🔀 Mudanças realizadas em projeto colaborativo
+## 🔀 Mudanças realizadas em projeto colaborativo
 
 Apresentei melhorias no projeto de um colega via Pull Request, aprimorando sua interface e usabilidade:
 
-Refiz o layout do conversor de moedas com uma interface mais moderna e responsiva.
-
-Adicionei ícones, cores suaves, sombras e feedback visual para uma navegação mais agradável.
-
-Organizei os campos, criei botões estilizados e inclui mensagens amigáveis de erro.
-
-Todas as modificações foram documentadas no Pull Request, que está anexado como evidência de colaboração.
+- Refiz o layout do conversor de moedas com uma interface mais moderna e responsiva.  
+- Adicionei ícones, cores suaves, sombras e feedback visual para uma navegação mais agradável.  
+- Organizei os campos, criei botões estilizados e incluí mensagens amigáveis de erro.  
+- Todas as modificações foram documentadas no Pull Request, que está anexado como evidência de colaboração.  
 
 Essa seção demonstra minha capacidade de contribuir para projetos externos, aplicar boas práticas de desenvolvimento e colaborar ativamente em ambientes de programação coletiva.
 
