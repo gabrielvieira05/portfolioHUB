@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Focus Timer</title>
+  <link rel="stylesheet" href="popup.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="container">
+    <h1><span class="emoji">⏳</span> <span class="highlight">Focus Timer</span></h1>
+    <div class="timer-card">
+      <div id="timer" class="timer-large">00:25:00</div>
+    </div>
+    <div class="set-time-card">
+      <input type="number" id="hoursInput" min="0" max="99" value="0" />
+      <span class="unit">h</span>
+      <input type="number" id="minutesInput" min="0" max="59" value="25" />
+      <span class="unit">min</span>
+      <input type="number" id="secondsInput" min="0" max="59" value="0" />
+      <span class="unit">s</span>
+      <button id="setBtn" class="btn btn-define">Definir</button>
+    </div>
+    <div class="buttons">
+      <button id="startBtn" class="btn btn-start">▶ Iniciar</button>
+      <button id="pauseBtn" class="btn btn-pause">⏸ Pausar</button>
+      <button id="resetBtn" class="btn btn-reset">⏹ Resetar</button>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
