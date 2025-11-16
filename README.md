@@ -1,3 +1,4 @@
+[![Acessar PortfolioHUB](https://img.shields.io/badge/Acessar_Site-Produção-brightgreen?style=for-the-badge)](https://gabrielvieira05.github.io/portfolioHUB/)
 
 ---
 
@@ -100,6 +101,17 @@ Apresentei melhorias no projeto de um colega via Pull Request, aprimorando sua i
 - Todas as modificações foram documentadas no Pull Request, que está anexado como evidência de colaboração.  
 
 Essa seção demonstra minha capacidade de contribuir para projetos externos, aplicar boas práticas de desenvolvimento e colaborar ativamente em ambientes de programação coletiva.
+
+---
+
+### 🏛️ Governança e Implantação Contínua (CI/CD)
+
+Além dos projetos apresentados, o próprio **portfolioHUB** é um exemplo de boas práticas de engenharia de software, conforme os requisitos da Entrega Final:
+
+* [cite_start]**Planejamento (IA):** A estrutura de implantação, o checklist de "Go Live" (testes) e as políticas de segurança deste repositório foram criados com o apoio do **Google Gemini**, conforme solicitado no desafio[cite: 159, 173].
+* **Segurança Ativa:** O repositório é monitorado 24/7 pelo **Dependabot** para varredura de vulnerabilidades em dependências. [cite_start]Uma política de segurança formal está documentada no arquivo `SECURITY.md`[cite: 183].
+* [cite_start]**Controle de Acesso:** A branch `main` é **protegida por regras**[cite: 184]. Nenhuma alteração (nem mesmo uma correção de link quebrado) vai para produção sem passar por uma revisão e aprovação via **Pull Request**.
+* [cite_start]**Implantação Automatizada:** O site é implantado automaticamente ("Go Live") através de um pipeline de CI/CD (GitHub Actions)[cite: 192]. Isso garante que o portfólio no ar (`gabrielvieira05.github.io/portfolioHUB/`) esteja sempre sincronizado com a versão estável e aprovada da branch `main`.
 
 ---
 
