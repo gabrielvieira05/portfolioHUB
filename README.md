@@ -104,7 +104,7 @@ Essa seção demonstra minha capacidade de contribuir para projetos externos, ap
 
 ---
 
-### 🏛️ Governança e Implantação Contínua (CI/CD)
+## 🏛️ Governança e Implantação Contínua (CI/CD)
 
 Além dos projetos apresentados, o próprio **portfolioHUB** é um exemplo de boas práticas de engenharia de software.
 
