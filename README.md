@@ -106,12 +106,12 @@ Essa seção demonstra minha capacidade de contribuir para projetos externos, ap
 
 ### 🏛️ Governança e Implantação Contínua (CI/CD)
 
-Além dos projetos apresentados, o próprio **portfolioHUB** é um exemplo de boas práticas de engenharia de software, conforme os requisitos da Entrega Final:
+Além dos projetos apresentados, o próprio **portfolioHUB** é um exemplo de boas práticas de engenharia de software.
 
-* [cite_start]**Planejamento (IA):** A estrutura de implantação, o checklist de "Go Live" (testes) e as políticas de segurança deste repositório foram criados com o apoio do **Google Gemini**, conforme solicitado no desafio[cite: 159, 173].
-* **Segurança Ativa:** O repositório é monitorado 24/7 pelo **Dependabot** para varredura de vulnerabilidades em dependências. [cite_start]Uma política de segurança formal está documentada no arquivo `SECURITY.md`[cite: 183].
-* [cite_start]**Controle de Acesso:** A branch `main` é **protegida por regras**[cite: 184]. Nenhuma alteração (nem mesmo uma correção de link quebrado) vai para produção sem passar por uma revisão e aprovação via **Pull Request**.
-* [cite_start]**Implantação Automatizada:** O site é implantado automaticamente ("Go Live") através de um pipeline de CI/CD (GitHub Actions)[cite: 192]. Isso garante que o portfólio no ar (`gabrielvieira05.github.io/portfolioHUB/`) esteja sempre sincronizado com a versão estável e aprovada da branch `main`.
+* **Planejamento (IA):** A estrutura de implantação, o checklist de "Go Live" (testes) e as políticas de segurança deste repositório foram criados com o apoio do **Google Gemini**, conforme solicitado no desafio.
+* **Segurança Ativa:** O repositório é monitorado 24/7 pelo **Dependabot** para varredura de vulnerabilidades em dependências. Uma política de segurança formal está documentada no arquivo `SECURITY.md`.
+* **Controle de Acesso:** A branch `main` é **protegida por regras**. Nenhuma alteração (nem mesmo uma correção de link quebrado) vai para produção sem passar por uma revisão e aprovação via **Pull Request**.
+* **Implantação Automatizada:** O site é implantado automaticamente ("Go Live") através de um pipeline de CI/CD (GitHub Actions). Isso garante que o portfólio no ar (`gabrielvieira05.github.io/portfolioHUB/`) esteja sempre sincronizado com a versão estável e aprovada da branch `main`.
 
 ---
 
