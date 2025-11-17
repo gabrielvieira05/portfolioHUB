@@ -36,7 +36,7 @@ Principais características:
 
 * **Design UI/UX responsivo**, pensado para usabilidade em múltiplos dispositivos.
 * **Dashboards interativos**, com visualização de métricas em tempo real.
-* **Integração com IoT**, permitindo conectar sensores físicos ao sistema.
+* **Integração com IoT**, permitindo conectar sensdsadawores físicos ao sistema.
 * **Recursos de comunidade online**, incentivando boas práticas de sustentabilidade.
 
 Esse projeto foi desenvolvido como parte de minha trajetória acadêmica e se destaca pelo **impacto social e ambiental**, unindo tecnologia e consciência ecológica.
